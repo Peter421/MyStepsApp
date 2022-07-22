@@ -345,8 +345,6 @@ System.out.println("ran 1");
             }
         });
 
-//comment this
-        //2
 
         table.setOnClickListener(new View.OnClickListener() {
             @Override
