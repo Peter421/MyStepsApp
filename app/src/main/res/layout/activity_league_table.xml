@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".LeagueTable"
+    android:background="#00ffff">
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="League Table"
+        android:textColor="#9C27B0"
+        android:textSize="24sp"
+        android:textStyle="bold|italic"
+        app:layout_constraintBottom_toTopOf="@+id/recyclerview2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/backbtn1"
+        android:layout_width="52dp"
+        android:layout_height="wrap_content"
+        android:text="back"
+        app:backgroundTint="#3F51B5"
+        app:layout_constraintBottom_toTopOf="@+id/recyclerview2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.049"
+        app:layout_constraintStart_toStartOf="parent"
+
+        app:layout_constraintVertical_bias="0.19" />
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/position_heading"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="20dp"
+            android:layout_marginLeft="20dp"
+            android:text="Position"
+            android:textSize="17sp"
+            android:textStyle="bold"
+            android:layout_column="1"
+            android:textColor="#9C27B0"
+            />
+
+        <TextView
+            android:id="@+id/username2_heading"
+            android:layout_width="44dp"
+            android:layout_height="match_parent"
+            android:layout_column="2"
+            android:layout_gravity="left"
+            android:layout_marginStart="20dp"
+            android:layout_marginLeft="20dp"
+            android:text="Name"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            android:textColor="#9C27B0"/>
+
+        <TextView
+            android:id="@+id/days_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="20dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:text="Day"
+            android:textSize="17sp"
+            android:textStyle="bold"
+            android:layout_column="3"
+            android:textColor="#9C27B0"
+            android:layout_gravity="left"/>
+
+        <TextView
+            android:id="@+id/dailystep_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="20dp"
+            android:layout_marginLeft="20dp"
+            android:text="Dsteps"
+            android:textSize="17sp"
+            android:textStyle="bold"
+            android:layout_column="4"
+            android:textColor="#9C27B0"
+            android:layout_gravity="left"
+            android:shadowColor="#000000"
+            android:shadowDx="0.0"
+            android:shadowDy="0.0"
+            android:shadowRadius="2.0"/>
+
+        <TextView
+            android:id="@+id/totalstep_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="20dp"
+            android:layout_marginLeft="20dp"
+            android:text="Tsteps"
+            android:textSize="17sp"
+            android:textStyle="bold"
+            android:layout_column="5"
+            android:textColor="#D1BF20"
+            android:layout_gravity="left"/>
+    </TableRow>
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recyclerview2"
+        android:layout_width="399dp"
+        android:layout_height="596dp"
+        android:background="#00ffff"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintVertical_bias="1.0" />
+
+</TableLayout>

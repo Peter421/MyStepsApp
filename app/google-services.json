@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "78597128089",
+    "project_id": "user-steps-account",
+    "storage_bucket": "user-steps-account.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:78597128089:android:15e9639865ffdafa371d08",
+        "android_client_info": {
+          "package_name": "com.example.mystepsapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "78597128089-3mlngd9hmb04ddr9epmh2g3do9hbkt3a.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.mystepsapp",
+            "certificate_hash": "44478046cedb4c7cd2d699f75620df8aad102f93"
+          }
+        },
+        {
+          "client_id": "78597128089-hkemcupsp6p4d7e07nhkvmbnjg6cancn.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCFAGb2HKfhx6y_FVWGIsgqNwTvE9vRiv8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "78597128089-hkemcupsp6p4d7e07nhkvmbnjg6cancn.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

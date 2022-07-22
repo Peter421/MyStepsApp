@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:stretchColumns="1,2,3,4,5">
+
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/position_text"
+            android:layout_width="15dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="20dp"
+            android:layout_marginLeft="20dp"
+            android:text="dummyposition"
+            android:textSize="17sp"
+            android:textStyle="bold"
+            android:layout_column="1"
+            android:textColor="#ffff"
+            android:shadowColor="#000000"
+            android:shadowDx="0.0"
+            android:shadowDy="0.0"
+            android:shadowRadius="2.0"/>
+
+        <TextView
+            android:id="@+id/username2_text"
+            android:layout_width="15dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="20dp"
+            android:layout_marginLeft="20dp"
+            android:text="dummyusername"
+            android:textSize="17sp"
+            android:textStyle="bold"
+            android:layout_column="2"
+            android:layout_gravity="left"
+            android:textColor="#ffff"
+            android:shadowColor="#000000"
+            android:shadowDx="0.0"
+            android:shadowDy="0.0"
+            android:shadowRadius="2.0"/>
+
+        <TextView
+            android:id="@+id/days_text"
+            android:layout_width="15dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="20dp"
+            android:layout_marginLeft="20dp"
+            android:text="days"
+            android:textSize="17sp"
+            android:textStyle="bold"
+            android:layout_column="3"
+            android:textColor="#ffff"
+            android:shadowColor="#000000"
+            android:shadowDx="0.0"
+            android:shadowDy="0.0"
+            android:shadowRadius="2.0"/>
+
+        <TextView
+            android:id="@+id/dailystep_text"
+            android:layout_width="15dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="20dp"
+            android:layout_marginLeft="20dp"
+            android:text="ds"
+            android:textSize="17sp"
+            android:textStyle="bold"
+            android:layout_column="4"
+            android:textColor="#ffff"
+            android:shadowColor="#000000"
+            android:shadowDx="0.0"
+            android:shadowDy="0.0"
+            android:shadowRadius="2.0"/>
+
+        <TextView
+            android:id="@+id/totalstep_text"
+            android:layout_width="15dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="20dp"
+            android:layout_marginLeft="20dp"
+            android:text="ts"
+            android:textSize="14sp"
+            android:textStyle="bold"
+            android:layout_column="5"
+            android:textColor="#D1BF20"
+            android:shadowColor="#000000"
+            android:shadowDx="0.0"
+            android:shadowDy="0.0"
+            android:shadowRadius="2.0"/>
+    </TableRow>
+
+
+
+
+
+
+    </TableLayout>
